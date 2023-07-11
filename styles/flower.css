@@ -16,8 +16,7 @@
      color: black;
 }
 .description{
-    
-    width: 40%;
+     width: 40%;
     margin: left;
 }
 .btn{
@@ -30,5 +29,89 @@
 }
 .intro .display-pic{
      width: 400px;
+     padding-right:450px;
+
+}
+.heading{
+     font-size: 35px;
+     font-weight: bold;
+     color: black;
+}
+.features{
+     height: 45vh;
+     text-align: center;
+     align-items: center;
+     
+.description2{
+     width: 35%;
+     padding-left: 550px;
+     
+}
+.flower-type{
+     display: flex;
+     align-items: center;
+     padding-left: 400px;
+}
+.flower{
+     width: 150px;
+     
+
+}
+.image1{
+     width:100px ;
+     height: 100px;
+     padding: 100px;
+     background-color: #d498a3;
+     border-radius: top 20px;
+}
+
+.flower2{
+     width: 150px;
+}
+.image2{
+     width:100px ;
+     height: 100px;
+     padding: 100px;
+     background-color: #a1dcdf;
+}
+.flower3{
+     width: 150px;
+}
+.image3{
+     width:100px ;
+     height: 100px;
+     padding: 100px;
+     background-color:#cae2b2;
+.pink{
+          display: none;
+     }
+.boquet{
+     display: none;
+}
+.yellow{
+     display: none;
+}
+/* .three-images{
+     display: flex;
+     padding-left: 500px;
+     margin-left: 500px;
+     width: 500px;
+     height: 500px;
+     background-color: #ECECEC;
+} */
+.image-4{
+     width: 20px;
+     height: 20px;
+     padding-bottom: 10px;
+     background-color: none;
+}
+title 2{
+     font-size: 15px;
+     font-weight: bold;
+     color: black;
+}
+.display-pic-2{
+     width: 350px;
+     padding-right: 450px;
 
 }
