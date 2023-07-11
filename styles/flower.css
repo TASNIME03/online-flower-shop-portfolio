@@ -1,0 +1,34 @@
+/* nav related styles */
+.intro{
+     margin: 40px;
+     
+     padding: 70px;
+     height: 35vh;
+     background-color: #eb8d9f;
+     text-align: left;
+     align-items: left;
+     display: flex;
+     
+}
+.title{
+     font-size: 45px;
+     font-weight: bold;
+     color: black;
+}
+.description{
+    
+    width: 40%;
+    margin: left;
+}
+.btn{
+    padding: 10px;
+    border: none;
+    
+}
+.bg-primary{
+     background-color: #E55473;
+}
+.intro .display-pic{
+     width: 400px;
+
+}
