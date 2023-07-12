@@ -52,30 +52,34 @@
      align-items: center;
      padding-left: 400px;
      gap: 7px;
+     margin-bottom: 50px;
 }
 
-.image1{
-     width:100px ;
-     height: 100px;
-     padding: 100px;
+.image1 {
+     width:300px ;
+     height: 300px;
+
      background-color: #d498a3;
-     border-radius: top 5px;
      align-items: center;
-}
-.flower{
+     object-fit: fill;
+     
+.flower {
      width: 150px;
      margin-top: 5px;
 
 }
-
-
-.image2{
-     width:100px ;
-     height: 100px;
-     padding: 100px;
+.image2 {
+     width: 300px;
+     height: 300px;
      background-color: #a1dcdf;
+     align-items: center;
+     object-fit: fill;
+
 }
 .flower2{
+     width:150px;
+}
+.flower3{
      width: 150px;
 }
 .image3{
@@ -83,19 +87,36 @@
      height: 100px;
      padding: 100px;
      background-color:#cae2b2;
-.flower3{
-          width: 150px;
-          vertical-align: bottom;
-     }
-.pink{
-          display: none;
-     }
-.boquet{
-     display: none;
+     object-fit: fill;
 }
-.yellow{
-     display: none;
+
+
+
+/* .image2 {
+     width:300px ;
+     height: 300px;
+     
+     background-color: #a1dcdf;
+     object-fit: fill;
+     align-items: center;
 }
+.flower 2{
+     width: 150px;
+     margin-top: 5px;
+}
+
+.image3{
+     width:100px ;
+     height: 100px;
+     padding: 100px;
+     background-color:#cae2b2;
+     object-fit: fill;
+}
+
+.flower 3 {
+     width: 150px;
+          
+} */
 
 /* .image-4{ */
      /* width: 20px; */
@@ -103,42 +124,51 @@
      /* padding-bottom: 10px; */
      /* background-color: none; */
 }
+.support{
+     display: flex;
+     margin-top: 100px;
+     align-self: center;
+     padding-left: 250px;
+     margin-left: 250px;
+     height: 25vh;
+     margin-right: 250px;
+     padding-right: 250px;
+     gap: 20px;
+     width: 800px;
+     background-color: darkgrey;
+
+}
+
+.sale-offer{
+     margin-top: 20px;
+      padding left: 300px;
+     height: 25vh;
+     background-color: #e7d5d9;
+     align-items:center;
+     display: flex;
+     padding-right: 300px;
+     
+}
+
 .heading-2{
      font-size: 15px;
      font-weight: bold;
      color: black;
      padding-left: 550px;
+     text-align: center;
 }
 .description-3{
      width: 35%;
      padding-left: 550px;
+     text-align: center;
 
 }
 .bg-primary2{
-     padding-left: 550px;
+     
      background-color: #e4143a;
      border: none;
 }
-.support{
-     display: flex;
-    padding-left: 480px;
-    margin-left: 300px;
-     width: 600px;
-     height: 25vh;
-     background-color:#e0d7d7;
-     align-items: center;
-     gap: top 10px;
-}
-.sale-offer{
-     margin: 40px;
-      padding: 70px;
-     height: 25vh;
-     background-color: #e7d5d9;
-     text-align: left;
-     align-items: left;
-     display: flex;
-     
-}
+
 .offer{
      color: #e4143a;
 }
@@ -171,28 +201,50 @@
 .picture{
      display: flex;
      align-items: center;
-     padding-left: 500px;
+     padding-left: 300px;
      gap: 15px;
 
 }
+.flower-7{
+     height: 100px;
+     width: 100px;
+}
+.flower-8{
+     height: 100px;
+     width: 100px;
+}
+.flower-9{
+     height: 100px;
+     width: 100px;
+}
+
+.flower-10{
+     height: 100px;
+     width: 100px;
+}
 .deals{
-     padding-left: 100px;
-     margin-left: 200px;
+     padding-left: 400px;
+     margin-left: 400px;
      height: 25vh;
      background-image: url("./Rectangle\ 9.png");
      background-repeat: no-repeat;
      align-items: center;
      text-align: center;
      margin-right: 400px;
+     padding-right: 400px;
+     margin-right: 400px;
      
 }
 .conclusion{
-     padding: left 200px;
+     padding: left 30px;
+     padding-right: 40px;
      height: 200px;
      background-color: black;
-     width: 1200px;
+
      text-align: center;
-  margin-left: 200px;
+  margin-left: 30px;
+  margin-right: 20px;
+  row-gap: 20px;
 }
 .prime{
      color: #e4143a;
