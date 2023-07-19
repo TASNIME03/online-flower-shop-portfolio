@@ -47,82 +47,45 @@
      padding-left: 550px;
      
 }
-.flower-type{
+.flower-container{
      display: flex;
      align-items: center;
      padding-left: 400px;
      gap: 7px;
      margin-bottom: 50px;
 }
-
-.image1 {
-     width:300px ;
-     height: 300px;
-
-     background-color: #d498a3;
-     align-items: center;
-     object-fit: fill;
-     
-.flower {
-     width: 150px;
-     margin-top: 5px;
+.box1{
+     display: inline-block;
+     width: 350px;
+     height: 350px;
+     background-color:#e2acc6;
+}
+.box2{
+     display: inline-block;
+     width: 350px;
+     height: 350px;
+     background-color:#aae2e4 ;
+}
+.box3{
+     display: inline-block;
+     width: 350px;
+     height: 350px;
+     background-color: #c4eb9d;
+}
+.box1 img{
+     width: 250px;
+     height: 250px;
+     padding-top: 20px;
 
 }
-.image2 {
-     width: 300px;
-     height: 300px;
-     background-color: #a1dcdf;
-     align-items: center;
-     object-fit: fill;
-
+.box2 img{
+     width: 250px;
+     height: 250px; background-color: ;
 }
-.flower2{
-     width:150px;
-}
-.flower3{
-     width: 150px;
-}
-.image3{
-     width:100px ;
-     height: 100px;
-     padding: 100px;
-     background-color:#cae2b2;
-     object-fit: fill;
-}
+.box3 img{
+     width: 250px;
+     height: 250px;
 
-
-
-/* .image2 {
-     width:300px ;
-     height: 300px;
-     
-     background-color: #a1dcdf;
-     object-fit: fill;
-     align-items: center;
-}
-.flower 2{
-     width: 150px;
-     margin-top: 5px;
-}
-
-.image3{
-     width:100px ;
-     height: 100px;
-     padding: 100px;
-     background-color:#cae2b2;
-     object-fit: fill;
-}
-
-.flower 3 {
-     width: 150px;
-          
-} */
-
-/* .image-4{ */
-     /* width: 20px; */
-     /* height: 20px; */
-     /* padding-bottom: 10px; */
-     /* background-color: none; */
 }
 .support{
      display: flex;
@@ -138,18 +101,20 @@
      background-color: darkgrey;
 
 }
-
 .sale-offer{
-     margin-top: 20px;
-      padding left: 300px;
-     height: 25vh;
      background-color: #e7d5d9;
-     align-items:center;
- display: flex;
+     display: flex;
+     height: 30vh;
+     width: 1000px;
+     margin-top: 20px;
+     padding-left: 200px;
      padding-right: 300px;
-     
+     margin-right: 250px;
+     margin-left: 250px;
+     gap: 20px;
+     align-items: center;
+     text-align: left;
 }
-
 .heading-2{
      font-size: 15px;
      font-weight: bold;
@@ -201,27 +166,15 @@
 .picture{
      display: flex;
      align-items: center;
-     padding-left: 300px;
+     padding-left: 370px;
      gap: 15px;
 
 }
-.flower-7{
-     height: 100px;
-     width: 100px;
-}
-.flower-8{
-     height: 100px;
-     width: 100px;
-}
-.flower-9{
-     height: 100px;
-     width: 100px;
+.picture img{
+     height: 250px;
+     width: 250px;
 }
 
-.flower-10{
-     height: 100px;
-     width: 100px;
-}
 .deals{
      padding-left: 400px;
      margin-left: 400px;
